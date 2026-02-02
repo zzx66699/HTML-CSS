@@ -155,31 +155,3 @@ form {
 ```
 
 
-## box-sizing
-When we add the padding or margin to the element, it makes the whole element bigger.
-
-It also happens if we set with percentage, like 100%. The div will stretch out of the viewport. 
-```css
-.promo-card {
-    width: 400px;
-    height: 400px;
-    padding: 25px;
-    border: solid 5px #5035ff;
-}
-```
-Once we add the box-sizing, the height and weight is set for the whole div.
-```css
-.promo-card {
-    width: 400px;
-    height: 400px;
-    padding: 25px;
-    border: solid 5px #5035ff;
-    box-sizing: border-box;
-}
-```
-It works throughout the page with the universal selector using an asterisk. 
-```css
-*, *::before, *::after {
-    box-sizing: border-box;    
-}
-```
