@@ -27,7 +27,7 @@ button {
 }
 ```
 
-## flex-wrap - create a grip
+## flex-wrap
 ```css
 .thumbnails {
     display: flex;
